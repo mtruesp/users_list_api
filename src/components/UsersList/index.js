@@ -61,6 +61,7 @@ class UsersList extends React.Component{
                                         email={user.email}
                                         phone={user.phone}
                                         website={user.website}
+                                        key={user.id}
                                     />
                                 )   
                             })
