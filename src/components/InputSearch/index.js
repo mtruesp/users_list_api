@@ -13,6 +13,7 @@ class InputSearch extends React.Component{
                     <Col>
                         <InputGroup className="mb-3">
                             <FormControl
+                                id="buscador"
                                 placeholder="Imagen a buscar"
                                 aria-label="Imagen a buscar"
                                 aria-describedby="basic-addon2"

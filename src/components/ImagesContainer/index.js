@@ -11,12 +11,12 @@ class ImagesContainer extends React.Component{
                 <Row>
                     {
                         this.props.images.map((image) => {
-                            
                             return (
                                 <Col sm="3">
                                     <ImageComponent
-                                        url={image.urls.regular}
+                                        image={image}
                                         key={image.id}
+                                        id={image.id}
                                     />
                                 </Col>
                             )
