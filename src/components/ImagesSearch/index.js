@@ -36,6 +36,7 @@ class ImagesSearch extends React.Component{
     render(){
         return(
             <Container>
+                {this.props.saludo}
                 <Row>
                     <Col>
                         <InputSearch
